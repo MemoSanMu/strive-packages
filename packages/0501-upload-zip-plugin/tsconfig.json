@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "es6",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    // "inlineSourceMap": true,
+    // "inlineSources": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "removeComments": true,
+    "pretty": true,
+    "strictPropertyInitialization": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "es6"],
+    "baseUrl": "./src"
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "typings/**/*.d.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
